@@ -3,7 +3,7 @@
 
 ## 图片展示
 
-<img src="https://img-blog.csdnimg.cn/f4ad3c892945482c8eb81ec1b11ecac2.jpg" style="zoom:10%">
+<img src="https://img-blog.csdnimg.cn/f4ad3c892945482c8eb81ec1b11ecac2.jpg" style="zoom:30%">
 
 <img src="https://img-blog.csdnimg.cn/84e05dc38419440588f37a0485a58266.jpg" style="zoom:30%">
 
