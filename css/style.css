@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(135deg, #a2d7dd 0%,#eca8a8 100%,#eed5a9 100%);
+}
+
+main{
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+}
+
+.box{
+    margin-top: 15vh;
+    margin-bottom: auto;
+    background:linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    width: 23rem;
+    border-radius: 1rem;
+}
+
+.box h2{
+    font-size: 2rem;
+    font-family: NSimSun,SimSun,STZhongsong;
+	color:rgb(36, 36, 36);
+	text-align:center;
+}
+
+.box .inputBox
+{
+	position:relative;
+}
+
+.box .inputBox input
+{
+    font-size: 1.5rem;
+    font-family: NSimSun,SimSun,STZhongsong;
+    margin-left: 8%;
+    padding-left: 2%;
+    width:80%;
+    height:2.8rem;
+	color:rgb(36, 36, 36);
+	letter-spacing:3px;
+	margin-bottom:30px;
+    border:none;
+	outline:none;
+}
+
+
+/* 两个按钮的样式 */
+.box input[type="submit"],
+.box input[type="button"]
+{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    font-family: NSimSun,SimSun,STZhongsong;
+    
+	border:none;
+	outline:none;
+	color:rgb(36, 36, 36);
+	padding:10px 45px;
+	margin-left: 9%;
+	cursor:pointer;
+	border-radius:5px;
+    width:35%;
+}
+
+#yu{
+    zoom:10%;
+    right:5rem;
+    position: absolute;
+}
+
+#yu:hover{
+    top: 5rem;
+    cursor: pointer;
+}
+
+/* 公告样式*/
+.showinfo {
+    position: absolute;
+    display: none;
+    top: 5%;
+    right: 5%;
+    z-index: 99999;
+    margin: 0 auto;
+    width: 26rem;
+    height: auto;
+    line-height: 40px;
+}
+
+.showinfo .text{
+	color:rgb(36, 36, 36);
+    font-size: 1rem;
+}

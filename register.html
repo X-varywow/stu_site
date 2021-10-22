@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="hzxbetter" />
+    <link rel="shortcut icon" href="favicons/1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        $(document).ready(function () {
+            $("#yu").click(function () {
+                $(".showinfo").toggle();
+            });
+        });
+    </script>
+    <title>注册</title>
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <h2>注 册</h2>
+            <form action="./logic/checkregister.php" method="post" enctype="multipart/form-data">
+
+                <div class="inputBox"><input type="text" placeholder="学号" name="name" value="" required="required"
+                        pattern="[0-9]{12}" title="学号为12位数字"></div>
+
+                <div class="inputBox"><input type="password" placeholder="密码" name="password" value=""
+                        required="required"></div>
+
+                <div class="inputBox"><input type="password" placeholder="确认密码" name="confirm" value=""
+                        required="required"></div>
+
+                <div class="inputBox" id="sp"><input type="text" placeholder="邀请码" value="" name="code"
+                        required="required" pattern="[a-z0-9]{5}" title="邀请码为5个字符"></div>
+
+                <input type="submit" name="submit" value="确认">
+                <input type="button" onclick="window.location.href='index.html'" value="返回">
+
+            </form>
+        </div>
+        <img src="./img/yu.png" id="yu">
+        <div class="showinfo">
+            <text>
+                <h2 style="text-align: center;"> 2021-10-14 v0.0.6 更新公告</h2>
+                <ol>
+                    <li>调整一些样式使其在1080p, 2k屏显示更加友好</li>
+                    <li>备案完成，开启HTTPS</li>
+                    <li>添加301重定向，使域名均为www.blcu.site</li>
+                </ol>
+            </text>
+        </div>
+    </main>
+
+</body>
+
+</html>

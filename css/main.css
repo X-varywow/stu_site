@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding:0;
+}
+a{
+  display:block;
+  text-decoration: none;
+}
+input{
+  border:none;
+  outline:none;
+}
+body{
+    min-height:100vh;
+}
+section >.container{
+    margin-bottom: 3rem;
+}
+
+.content{
+    background-color: #f5f7f8;
+}
+
+.nav-link:hover{
+    color:blue;
+}
+
+/*这是网页注释的样式*/
+.info{
+    padding:1rem;
+    background: #fff;
+    border-radius: 3px;
+    border-left: 5px solid #00bc12;
+    margin-bottom:2rem;
+}
+
+/* 展示界面的卡片 */
+.card-title{
+    border-bottom: 1px solid #a5a7a8;
+}
+.card-body>img{
+    cursor:pointer;
+}
+.card-body{
+    padding-top: .5rem !important;
+}
+.card-footer{
+    background-color:#fff !important;
+    padding-bottom: 0 !important;
+}
+
+h5, h6{
+    display:inline;
+    margin-left:.5rem;
+}
+
+.message-img{
+    margin-bottom: .5rem;
+}
+
+.dz,
+.pl{
+  float:right;
+}
+#likes-cnt,
+#pl-cnt{
+    font-family: Consolas;
+}
+
+.likes-ico,
+.pl-ico{
+    zoom:70%;
+    margin-bottom: .5rem;
+}
+
+.pl-ico:hover{
+  cursor: pointer;
+}
+
+.dianzan{
+  width: 55px;
+  float:right;
+}
+
+.likes-ico:hover{
+  cursor: pointer;
+}
+/* 卡片的评论系统 */
+.layout{
+    position:fixed;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background: rgba(229,229,229,.7);
+    overflow:auto;
+}
+.close{
+    border-radius: 1rem;
+    width:50px;
+    height:50px;
+    background:#fff;
+    position: fixed;
+    right:60px;
+    top:30px;
+    text-align: center;
+    line-height: 50px;
+}
+.close:hover{
+    cursor: pointer;
+}
+.begin-pl{
+    position:absolute;
+}
+.wrapper{
+    /*min-width:658px;*/
+    border:30px solid #fff;
+    background: #fff;
+    width:80%;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:100px;
+}
+.c-h{
+    border-bottom: 1px solid #ee827c;
+    padding-bottom: .5rem;
+    margin-bottom:1rem;
+}
+#c-c{
+    font-size:1.2rem;
+    border-bottom: 1px solid #ee827c;
+    padding-bottom: .5rem;
+    margin-bottom:1rem;
+}
+.c-c-p{
+    padding-top:.3rem;
+    background: #f2f2f2;
+    padding-left:1rem;
+    border-radius: 3px;
+    border-left: 3px solid #ee827c;
+}
+#c-c-t{
+    float:right;
+    margin-right:.5rem;
+}
+
+.card-img{
+    height:15vh;
+    max-width:15vh;
+}
+
+
+
